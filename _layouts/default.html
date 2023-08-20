@@ -18,6 +18,15 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/teaching/">Teaching</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+
     <div class="initial-content">
       {{ content }}
     </div>
