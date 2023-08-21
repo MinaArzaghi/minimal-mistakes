@@ -6,3 +6,6 @@ main:
     url: /about/
   - title: Teaching
     url: /teaching/
+    children:
+      - title: Course 60629_A2023
+        url: /teaching/60629_A2023
